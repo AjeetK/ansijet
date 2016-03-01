@@ -14,8 +14,6 @@ module.exports = {
   'DELETE /triggers/:id': 'triggers.delete',
   'GET /triggers': 'triggers.index',
 
-   'GET /deploy': 'deploy.index',
-
   'GET /jobs/:id': 'jobs.view',
 
   'GET /logs': 'logs.index',
